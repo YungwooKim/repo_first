@@ -2,10 +2,47 @@
     font-family: fantasy;
 }
 
+header {
+    height: 70px;
+    background-color: cornsilk;
+}
+
+header .header_info {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+}
+
+header .main_logo {
+    display: inline-block;
+    background-image: url("../../images/sample/icon/logo_github.svg");
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px;
+}
+
+header .main_name {
+    height: 100%;
+    font-size: 20px ;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav {
+    width: 79%;
+    height: 100%;
+    float: right;
+}
+
 header nav ol {
     list-style-type: none;
+    padding: 10px 0;
 }
 
 header nav ol li {
     display: inline;
+    margin: 20px;
 }
+
