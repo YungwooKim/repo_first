@@ -1,0 +1,11 @@
+* {
+    font-family: fantasy;
+}
+
+header nav ol {
+    list-style-type: none;
+}
+
+header nav ol li {
+    display: inline;
+}
